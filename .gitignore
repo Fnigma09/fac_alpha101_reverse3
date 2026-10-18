@@ -1,0 +1,15 @@
+# Keep data/ in repo, but never commit generated parquet (too large for GitHub).
+data/*
+!data/.gitkeep
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local env / IDE
+.env
+.venv/
+venv/
+.idea/
+.vscode/
